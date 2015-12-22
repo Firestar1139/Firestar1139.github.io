@@ -1,0 +1,21 @@
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+relative_permalinks: true
+
+# Setup
+title:               C G Program
+tagline:             'Learning to program with Node.js'
+description:         'C G Program'
+url:                 http://Firestar1139.github.io
+baseurl:             ''
+paginate:            5
+
+# About/contact
+author:
+  name:              Eric
+  url:               
+  email:             ericjkort@gmail.com
+# Custom vars
+version:             1.0.0

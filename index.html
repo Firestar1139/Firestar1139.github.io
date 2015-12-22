@@ -1,0 +1,19 @@
+---
+layout: default
+---
+<div class="home">
+  <section>
+    <h2 class="smallcap">Assignments</h2>
+    <ul class="post-list">
+      {% for post in site.posts limit:8 %}
+      <li>
+        <span>{{ post.date | date: "%b %d, %Y" }}</span>
+        <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      </li>
+      {% endfor %}
+    </ul>
+    <p><a href="{{ "/archives/" | prepend: site.baseurl }}">View older...</a></p>
+  </section>
+<section>
+
+</div>
